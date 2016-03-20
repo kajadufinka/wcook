@@ -1,0 +1,76 @@
+/* CSS Document */
+body {
+  background-color: #F7B143;
+}
+.jumbotron {
+  background-color: #313131;
+  color: #3aca0d /*#bdbdbd*/;
+  text-align: justify;
+  padding-left: 8vw;   
+}
+.button {
+   border-top: 1px solid #000000;
+   background: #39ca0d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#39ca0d), to(#39ca0d));
+   background: -webkit-linear-gradient(top, #39ca0d, #39ca0d);
+   background: -moz-linear-gradient(top, #39ca0d, #39ca0d);
+   background: -ms-linear-gradient(top, #39ca0d, #39ca0d);
+   background: -o-linear-gradient(top, #39ca0d, #39ca0d);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #212121;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+}
+.button:hover {
+   border-top-color: #ee980f;
+   background: #ee980f;
+   color: #212121;
+}
+.button:active {
+   border-top-color: #ba7506;
+   background: #ba7506;
+}
+.najitrecept {
+  padding: 2vw;
+  font-size: 1.5vw;
+  top: 5vw;
+  right: 5vw;
+  position: absolute;
+}
+.footer {
+  background-color: #313131;
+  color: #3aca0d;
+  text-align: center;
+  padding: 0.5vw;
+  font-weight: bold;
+  margin-top: 2vw;
+}
+.home {
+  padding: 1vw;
+  font-size: 1.5vw;
+  top: 6.5vw;
+  right: 5vw;
+  position: absolute;
+}
+.image {
+  width: 90vh;
+}
+.item  {
+  float: none;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  margin: auto;
+}
+.form-control {
+  width: 50vh;
+}
