@@ -6,7 +6,7 @@ var gulp = require('gulp'),
 livereload({ start: true });
 
 gulp.task('default', function() {
-   gulp.src('./less/styles.less')
+   gulp.src('./css/styles.less')
       .pipe(watch('less/*.less'))
       .pipe(less())
       .pipe(gulp.dest('css'))

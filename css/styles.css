@@ -1,4 +1,11 @@
 /* CSS Document */
+.groups {
+  padding: 1vw;
+}
+.heading {
+  font-size: large;
+  padding-left: 6vw;
+}
 body {
   background-color: #F7B143;
 }
@@ -11,11 +18,6 @@ body {
 .button {
   border-top: 1px solid #000000;
   background: #39ca0d;
-  background: -webkit-gradient(linear, left top, left bottom, from(#39ca0d), to(#39ca0d));
-  background: -webkit-linear-gradient(top, #39ca0d, #39ca0d);
-  background: -moz-linear-gradient(top, #39ca0d, #39ca0d);
-  background: -ms-linear-gradient(top, #39ca0d, #39ca0d);
-  background: -o-linear-gradient(top, #39ca0d, #39ca0d);
   padding: 5px 10px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
