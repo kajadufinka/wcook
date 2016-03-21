@@ -4,5 +4,5 @@
 }
 .heading {
   font-size: large;
-  padding-left: 6vw;
+	padding-left: 6vw;
 }
